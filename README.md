@@ -1,5 +1,4 @@
 # smartToll_app
-# smartToll_server
 <h1>Smart Toll</h1>
 <p>This project showcases a simple interconnectivity among a server, a mobile application and a hardware. The mobile application (android) majorly deals with user input and exchanges data with the server (PHP). The server inturn publishes data onto the mqtt channel. The hardware (raspberry pi 3) is connected to the same mqtt channel and depending on the message sent over the channel does specific operation.<p>
 
