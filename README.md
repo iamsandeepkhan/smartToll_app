@@ -64,4 +64,13 @@
      </ul>
     </p>
   </li>
+  <li>Data over MQTT Channel : JSON Encoded data. Contains two mandatory fields to determine successful server operation:
+    <p>"station" : Station name or code</p>
+    <p>"gate" : Gate code associated with the station.</p>
+  </li>
+  <li>QR Code Encoded Data : JSON Formatted data. Contains two mandatory fields to determine successful server operation:
+    <p>"appname" : "smartoll"</p>
+    <p>"station" : Station name or code</p>
+    <p>"gate" : Gate code associated with the station.</p>
+  </li>
 </ul>
