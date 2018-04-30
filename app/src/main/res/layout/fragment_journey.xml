@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="16dp"
+    tools:context="com.example.android.metro.main.JourneyFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            android:textColor="@color/bill_item"
+            android:text="Welcome Sandy!"
+            android:textSize="34sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/linear_border"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="34sp"
+                android:textColor="@color/bill_subheading"
+                android:text="Start Station"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:textColor="@color/bill_subheading"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_station"
+                android:textSize="@dimen/station_text_size"
+                android:background="@drawable/border"
+                android:text="Not Set"/>
+        </LinearLayout>
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="10dp"-->
+            <!--/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/linear_border"
+            android:layout_marginBottom="8dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/bill_subheading"
+                android:layout_height="wrap_content"
+                android:textSize="34sp"
+                android:text="Current Status"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/current_status"
+                android:textColor="@color/bill_subheading"
+                android:textSize="@dimen/station_text_size"
+                android:background="@drawable/border"
+                android:text="Halt"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Journey"
+            android:id="@+id/journey_button"
+            android:background="@drawable/button_style"
+            android:textColor="@color/button_text_color"
+            />
+    </LinearLayout>
+
+</LinearLayout>
