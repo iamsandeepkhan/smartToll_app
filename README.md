@@ -39,6 +39,7 @@
 
 <h3>Miscellaneous informations : </h3>
 <ul>
+  <li><b>Please update the host name information res/values/strings.xml file!</b></li>
   <li>Return values : JSON Encoded data. Contains two mandatory fields to determine successful server operation:
     <p>"sucess" : "true"/"false" - If the operation was successful or not.</p>
     <p>"errorCode" : If sucess is false then we may get the following error codes. The associated error is mentioned alongside.<p>
